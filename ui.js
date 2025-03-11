@@ -27,21 +27,21 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_8 = function() {
+(lib.CachedBmp_3 = function() {
 	this.initialize(ss["ui_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_7 = function() {
+(lib.CachedBmp_2 = function() {
 	this.initialize(ss["ui_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_6 = function() {
+(lib.CachedBmp_1 = function() {
 	this.initialize(ss["ui_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
@@ -74,7 +74,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_8();
+	this.instance = new lib.CachedBmp_3();
 	this.instance.setTransform(-165.85,-121,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -97,10 +97,10 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_7();
+	this.instance = new lib.CachedBmp_2();
 	this.instance.setTransform(-133.6,-43.35,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_6();
+	this.instance_1 = new lib.CachedBmp_1();
 	this.instance_1.setTransform(-136.5,-139.65,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -519,24 +519,24 @@ if (reversed == null) { reversed = false; }
 
 	// BG
 	this.instance = new lib.Main_animation();
-	this.instance.setTransform(815,400);
+	this.instance.setTransform(639.95,314.1,0.7853,0.7853);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(834.7,503.7,810.8999999999999,65.90000000000003);
+p.nominalBounds = new cjs.Rectangle(655.4,395.1,636.6999999999999,52.099999999999966);
 // library properties:
 lib.properties = {
 	id: '43D59298A37CE247BFAC71FF180991A9',
-	width: 1630,
-	height: 830,
+	width: 1280,
+	height: 651,
 	fps: 60,
-	color: "#000000",
+	color: "#163B46",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/ui_atlas_1.png?1741701530067", id:"ui_atlas_1"}
+		{src:"images/ui_atlas_1.png?1741702961679", id:"ui_atlas_1"}
 	],
 	preloads: []
 };
